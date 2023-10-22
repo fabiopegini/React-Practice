@@ -1,0 +1,37 @@
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-color: rgb(112, 54, 54);
+
+}
+
+.card__title {
+    width: 250px;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: .5px;
+    color: wheat;
+
+}
+
+.card__img {
+    width: 250px;
+    height: 35vh;
+    padding: 8px;
+    border: 2px solid wheat;
+    box-shadow: 0px 0px 5px 1px wheat;
+    background-color: wheat;
+
+}
+
+.card__select {
+    margin: 20px;
+    width: 90px;
+    font-size: 17px;
+    background-color: rgb(112, 54, 54);
+    border: 1px solid wheat;
+    color: wheat;
+
+}

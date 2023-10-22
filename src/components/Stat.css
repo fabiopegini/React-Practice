@@ -1,0 +1,21 @@
+.stat {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: wheat;
+    border: 1px solid wheat;
+}
+
+.highlighted {
+    transition: 100ms all;
+    background-color: antiquewhite;
+    color: rgb(112, 54, 54);
+    border: 1px solid rgb(112, 54, 54);
+    
+}
+
+.plus {
+    font-size: 17px;
+}

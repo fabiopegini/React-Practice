@@ -1,0 +1,21 @@
+.gf {
+    box-sizing: border-box;
+    padding: 0;
+    width: 65px;
+    border: 1px solid wheat;
+    
+}
+
+.gf:hover {
+    box-shadow: 0px 0px 5px 1px wheat;
+    border: 1px solid rgb(112, 54, 54);
+}
+
+.active {
+    border: 3px solid rgb(51, 176, 37);
+    
+}
+
+.active:hover {
+    border: 3px solid rgb(51, 176, 37);
+}
