@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from 'react'
-import './Stat.css'
+import React, { useContext, useEffect, useState } from 'react'
+import { ClickedContext } from '../context/button_clicked'
 import { checkButton } from '../logic'
+import './Stat.css'
 
-const Stat = ({statName, buttonClicked}) => {
+const Stat = ({statName}) => {
   const [renderState, setRenderState] = useState(0)
+
+  const {buttonClicked} = useContext(ClickedContext)
 
   useEffect(()=> {
     if(buttonClicked.name === 'firstRender') return

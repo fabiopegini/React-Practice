@@ -1,20 +1,20 @@
 import React from 'react'
 import Stat from './Stat'
-import './Stats.css'
 import { statsNames } from '../constants'
+import './Stats.css'
 
-const ArrayOfStats = ({buttonClicked}) => {
+const ArrayOfStats = () => {
   let array = []
   statsNames.map((stat, index) => {
-    array[index] = <Stat statName={stat.name} buttonClicked={buttonClicked} key={stat.id} />
+    array[index] = <Stat statName={stat.name} key={stat.id} />
   })
   return array
 }
 
-const Stats = ({buttonClicked}) => {
+const Stats = () => {
   return (
     <div className='stats-container'>
-      <ArrayOfStats buttonClicked={buttonClicked} />
+      <ArrayOfStats />
     </div>
   )
 }
