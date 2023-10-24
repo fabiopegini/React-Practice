@@ -8,4 +8,5 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# Practica de react con una app de FF8, que sirve para planificar los enlaces de gf de un pj.
+# Practica de react con una app de FF8
+App para planificar los enlaces de gf de un pj.
